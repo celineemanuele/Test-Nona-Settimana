@@ -4,13 +4,13 @@ import { Col } from "react-bootstrap";
 const MyCard = ({movies}) => {
 
     let imgStyle = {
-        height: "230px",
-        width: "160px",
+        height: "200px",
+        width: "140px",
       };
 
     return (
         <div className="d-flex">
-            {movies.map((movie) => 
+            {movies.slice(0,7).map((movie) => 
                 <Col className="mb-2 px-1">
                     <img className="img"  style={imgStyle} src={movie} alt="movie picture" />
                 </Col>

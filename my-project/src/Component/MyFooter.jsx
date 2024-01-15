@@ -4,7 +4,7 @@ import { FaThLarge, FaTh } from "react-icons/fa";
 
 const MyFooter = () => {
   return (
-    <Container fluid>
+    <Container >
         <div className="row text-center mt-5">
             <div className="col-6 offset-3">
                 <div>
