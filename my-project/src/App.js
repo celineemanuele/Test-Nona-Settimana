@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 import MyNavbar from './Component/MyNavbar';
 import MyGenres from './Component/MyGenres';
 import MyFooter from './Component/MyFooter';
@@ -16,12 +17,14 @@ function App() {
 
     return (
     <div className="App" style={appStyle}>
-      <MyNavbar />
-      <MyGenres />
-      <GalleryHP/>
-      <GallerySV/>
-      <GalleryLOTR/>
-      <MyFooter/>
+      <Container>
+        <MyNavbar />
+        <MyGenres />
+        <GalleryHP/>
+        <GallerySV/>
+        <GalleryLOTR/>
+        <MyFooter/>
+      </Container>
     </div>
   );
 }

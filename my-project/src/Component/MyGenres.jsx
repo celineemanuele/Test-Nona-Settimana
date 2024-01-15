@@ -9,7 +9,7 @@ const MyGenres = () => {
         <div className="d-flex justify-content-between">
       <div className="d-flex">
         <h2 className="mb-4 text-white">TV Shows</h2>
-        <Dropdown className="ml-4 mt-1">
+        <Dropdown className="ml-4 mt-1 ms-4">
           <Dropdown.Toggle variant="secondary" size="sm" className="rounded-0" style={{ backgroundColor: "#221f1f" }}>
             Genres &nbsp;
           </Dropdown.Toggle>
